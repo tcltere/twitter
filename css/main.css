@@ -8,63 +8,78 @@ body{
 }
 nav{
 	color: #009DF6;
-	background: #fff;
 	width: 100%;
 	height: 50px;
 	margin-top: 0;
 	display: inline-block;
 	text-align: center;
 	font-size: 15px;
+	background: #0DA5BC;
+	color: #fff;
 
 }
-.container{
+.intro, .write{
 
-    margin-top: 100px;
-	margin-right: 0;
-	margin-left: 200px;
-	display: inline-block;
-}
-.cuadroIz{
-	width: 100%;
-	height: 300px;
-	background: #fff;
-	display: inline-block;
-	margin-right: 20px;
-}
-
-form{
-	width: 100%;
-	border: 1px solid #000;
+   display: inline-block;
+	background: white;
+	width: 30%;
 	height: 200px;
-	margin: 20px;
-	padding: 20px;
-	background: #fff;
-	display: inline-block;
+	vertical-align: top;
+	padding: 20px 30px;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.intro{
+	margin-left: 130px;
 
 }
-#btn:hover{
-	background: #000;
-}
+
+
+
 label{
 	font-size:12px;
 	display: inline-block;
 	width: 100%;
 }
-input, textarea{
-	width: 80%;
-	margin-bottom: 20px; 
-	padding: 10px;
-	box-sizing: content-box;
+.area{
+
+	width: 100%;
+	border:none;
+	border-bottom: 1px solid #0DA5BC;
+	margin: 20px 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	outline: none;
+    overflow: hidden;
+    min-height: 80px;
+    max-height: 180px;
+
 }
 textarea{
 	resize: vertical;
 }
 #btn{
-	background-color: #009DF6;
+
 	cursor: pointer;
 	width: 60px;
 	height: 30px;
 	text-align: center;
+
+}
+#btn:hover{
+	background: #000;
+	color: #fff;
+}
+
+#comment{
+	width: 71%;
+	background-color: #fff;
+	padding: 20px 30px;
+	margin: 70px 130px;
+	border-radius: 4px;
+	
+
 
 }
 footer{

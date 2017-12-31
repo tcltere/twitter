@@ -6,27 +6,35 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<!--barra-->
 	<nav>
-		<h1>Twitter</h1>
+		<h1>Tweetter</h1>
 	</nav>
+	<!---primer container 2 col-->
 <section class="container">
-	<form>
-		<label for="mensaje"></label>
-		<textarea id="mensaje" placeholder="¿que estas pensando?"></textarea>
+	<div class="intro">
+		<h3>Bienvenido a mi reto</h3>
+		<p>Hola bebé, <br> soy un proyecto de algo...</p>
+	</div>
+	<!--text area-->
+	<div class="write">
+		<textarea class="area" id="escribir" placeholder="¿que estas pensando?"></textarea>
+		<!--boton-->
+		<button id="btn" class="boton">tweet</button>
+		<div id="cont"></div>
 
-		<button type="botton" id="btn" >Twitts</button> 
-               </form>
-			
+	</div>
+</section>
+	<!--donde ingrsa comentario-->
+	<section>
+		<div id="comment"></div>
+	</section>
 	
-		<section class="main">
-			<div class="cuadroIz"></div>
-			<div class="cont"></div>
-		</section>
-		</section>
+	
 		<footer>
 			
 		</footer>
 	
-	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
